@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Guru</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="public/css/bootstrap.min.css" rel="stylesheet">
+		<link href="public/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="public/css/boo-extension.css" rel="stylesheet">
+		<link href="public/css/boo.css" rel="stylesheet">
+		<link href="public/css/style.css" rel="stylesheet">
+		<link href="public/css/boo-coloring.css" rel="stylesheet">
+		<link href="public/css/boo-utility.css" rel="stylesheet">
+		<script data-main="public/js/app" src="public/js/lib/require.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid" style="height:110px;">
+			</div>
+			<div class="row-fluid">
+				<form class="form-dark">
+					<div class="well well-nice">
+						<ul class="inline">
+							<li class="listbox-left span5">
+								<h4 class="simple-header">
+									<button id="box5Clear" class="btn btn-small btn-yellow pull-right">
+										<i class="fontello-icon-filter"></i>
+										 Clear
+									</button>
+									Item list
+								</h4>
+								<input id="box5Filter" class="input-block-level" type="text">
+								<select id="box5View" multiple="multiple" class="input-block-level" style="height:210px;">
+									<option value="0">11111111111</option>
+									<option value="0">你好</option>
+									<option value="0">11122221111</option>
+									<option value="0">11111981111</option>
+									<option value="0">11134551111</option>
+									<option value="0">11144411111</option>
+									<option value="0">11111555111</option>
+									<option value="0">11232001111</option>
+									<option value="0">11123231111</option>
+									<option value="0">11100000111</option>
+								</select>
+								<span id="box5Counter" class="countLabel">显示 12 / 12</span>
+								<select id="box5Storage" style="dispaly:none;"></select>
+							</li>
+							<li class="listbox-control span2 text-center">
+								<h4 class="simple-header">操作</h4>
+								<ul class="listbox-menu well well-nice">
+									<li>
+										<button id="to6" class="btn btn-block" type="button">
+											<i class="fontello-icon-to-end-1"></i>
+										</button>
+									</li>
+									<li>
+										<button id="allTo6" class="btn btn-block" type="button">
+											<i class="fontello-icon-to-end-alt"></i>
+										</button>
+									</li>
+									<li class="divider"></li>
+
+									<li>
+										<button id="allTo5" class="btn btn-block" type="button">
+											<i class="fontello-icon-to-start-alt"></i>
+										</button>
+									</li>
+									<li>
+										<button id="to5" class="btn btn-block" type="button">
+											<i class="fontello-icon-to-start-1"></i>
+										</button>
+									</li>
+									<li class="divider"></li>
+
+									<li>
+										<button class="btn btn-green btn-block" type="submit">发送已选数据</button>
+									</li>
+
+								</ul>
+							</li>
+
+							<li class="listbox-right span5">
+								<h4 class="simple-header">
+									<button id="box6Clear" class="btn btn-small btn-yellow pull-right" type="button">
+										<i class="fontello-icon-filter"></i>
+										 Clear
+									</button>
+									<i class="fontello-icon-list-4"></i>
+									已选择的项目
+								</h4>
+								<input id="box6Filter" class="input-block-level" type="text">
+								<select id="box6View" multiple="multiple" class="input-block-level" style="height:210px;">
+									<option value="0">11111111111</option>
+									<option value="0">你好3311111</option>
+									<option value="0">11122221111</option>
+									<option value="0">11111981111</option>
+									<option value="0">11134551111</option>
+									<option value="0">11144411111</option>
+									<option value="0">11111555111</option>
+									<option value="0">11232001111</option>
+									<option value="0">11123231111</option>
+									<option value="0">11100000111</option>
+								</select>
+								<span id="box6Counter" class="countLabel">显示 12 / 12</span>
+								<select id="box6Storage" style="display:none;"></select>
+							</li>
+						</ul>
+					</div>
+				</form>
+			</div>
+
+			<div class="row-fluid" style="height:110px;">
+			</div>
+			<div class="row-fluid">
+				<div class="well well-nice text-center">
+					<h4 class="simple-header">
+						Top notification 
+						<span class="boo-green">full width to page</span>
+					</h4>
+					<ul class="unstyled btn-demo">
+						<li data-type="alert" data-layout="top" class="btn runner">提示</li>
+						<li data-type="success" data-layout="top" class="btn btn-green runner">成功</li>
+						<li data-type="error" data-layout="top" class="btn btn-red runner">错误</li>
+						<li data-type="warning" data-layout="top" class="btn btn-orange runner">警告</li>
+						<li data-type="information" data-layout="top" class="btn btn-turgu runner">信息</li>
+						<li data-type="confirm" data-layout="top" class="btn btn-blue runner">确定</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
